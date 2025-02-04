@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+a{
+    color:dodgerblue;
+    text-decoration: none;
+}
+
+h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+p { 
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.city-wrapper {
+        padding: 5px;
+        background-color: whitesmoke;
+        padding-left: 120px;
+        margin-bottom: 50px;
+}
+
+.city-wrapper > p {
+    background-color: whitesmoke;
+    color:dimgray
+}
