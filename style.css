@@ -1,5 +1,5 @@
 body {
-    background-color: #fefefe;;
+    background-color: #fff6dd;;
     font-family: "Figtree", serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -13,7 +13,7 @@ body {
   }
 
 .container{
-    max-width: 750px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,6 +24,7 @@ body {
 
 .left {
     text-align: left;
+    background-color: #fffbef;
 }
 
 .w-100{
@@ -31,15 +32,34 @@ body {
 }
 
 .city-wrapper {
-    text-align: left;
-    padding: 5px;
-    padding-left: 120px;
-    margin-bottom: 15px;
-    margin-right: 120px;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fffbef ;
+
+    margin-bottom: 50px;
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
 }
 
-.city-wrapper > p {
-color:#02207A
+.city-img{
+    width: 40%;
+}
+
+.city-text{
+    width: 60%;
+}
+
+.bg {
+    background-color: #fffbef;
+}
+
+.section-header {
+    font-size: 75px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .list-h2 {
@@ -51,13 +71,20 @@ color:#02207A
     line-height: 60px;
 }
 
+.back{
+    font-family: "molto", serif;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
 li{ 
     font-family: "Figtree", serif;
     font-size: larger;
     font-optical-sizing: auto;
     font-style: normal;
     padding: 10px;
-    background-color: #F6FCD0;
+    background-color: #fffbef;
 }
 
 a{
@@ -86,16 +113,14 @@ h3{
     font-family: "molto", serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 40px;
 }
-
 
 p { 
     color: #02207A;
     font-size: 24px;
     line-height: 34px;
-    margin-bottom: 5px;
-    padding: 10px;
-    background-color: #F6FCD0;
+    padding: 8px;
 }
 
 summary {
